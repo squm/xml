@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8" standalone="yes"?> -->
+<!DOCTYPE behemoth SYSTEM "behemoth.dtd">
+<behemoth type="whiteee">
+	<DocumentN>123</DocumentN>
+	<Date/>
+	<Time/>
+	<Bear>
+		<Address>New Zealand</Address>
+		<Colour/>
+	</Bear>
+	<Zebra>
+		<Name/>
+		<ColourOne>white</ColourOne>
+		<ColourTwo>black</ColourTwo>
+	</Zebra>
+	<Giraffe>
+		<Height/>
+		<Mood>awake, aroused</Mood>
+	</Giraffe>>
+</behemoth>

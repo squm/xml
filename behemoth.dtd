@@ -1,0 +1,34 @@
+<!ELEMENT behemoth (
+		    Date?,
+		    DocumentN+,
+		    Time?,
+		    Bear?,
+		    Giraffe,
+		    Zebra*
+		    )>
+<!ATTLIST behemoth
+	type (gray | white) #REQUIRED
+>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT DocumentN (#PCDATA)>
+<!ELEMENT Time (#PCDATA)>
+<!ELEMENT Bear (
+		    Address?,
+		    Colour?
+		    )>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Colour (#PCDATA)>
+<!ELEMENT Giraffe (
+		   Height?,
+		   Mood?
+		   )>
+<!ELEMENT Height (#PCDATA)>
+<!ELEMENT Mood (#PCDATA)>
+<!ELEMENT Zebra (
+		 ColourOne?,
+		 ColourTwo?,
+		 Name*
+		 )>
+<!ELEMENT ColourOne (#PCDATA)>
+<!ELEMENT ColourTwo (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
